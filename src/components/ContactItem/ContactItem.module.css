@@ -1,0 +1,33 @@
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--second-color);
+  border-radius: 40px;
+  width: 85%;
+  margin: 0 auto 15px;
+  padding: 10px 30px;
+}
+
+.contactName {
+  position: relative;
+  color: var(--font-color);
+  font-size: 25px;
+  padding-left: 30px;
+  margin: 0;
+}
+
+.contactBtn {
+  padding: 10px 10px 15px;
+  height: 30px;
+  color: var(--font-color);
+  background-color: var(--main-color);
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.contactBtn:hover,
+.contactBtn:focus {
+  background-color: #414150;
+}

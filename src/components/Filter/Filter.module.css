@@ -1,0 +1,20 @@
+.searchTitle {
+  color: var(--font-color);
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.searchField {
+  width: 80%;
+  border-radius: 20px;
+  padding: 10px;
+  border: 2px solid transparent;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+.searchField:hover,
+.searchField:focus {
+  border: 2px solid var(--second-color);
+}
